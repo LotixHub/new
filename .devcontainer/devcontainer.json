@@ -17,7 +17,10 @@
 			"version": "3.11"
 		},
 		"ghcr.io/itsmechlark/features/postgresql:1": {
-			"version": "latest"
+			"version": "latest",
+			"user": "vscode",
+			"password": "vscode",
+			"database": "vscode"
 		},
 		"ghcr.io/nikobockerman/devcontainer-features/poetry-persistent-cache:1": {},
 		"ghcr.io/devcontainers-extra/features/poetry:2": {
